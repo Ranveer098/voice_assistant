@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../OneDrive/Desktop/Intercept_Echo_v2-3.5MB-2-1542062294.gif</pixmap>
+     <pixmap>../../PythonProj_GUI/Intercept_Echo_v2-3.5MB-2-1542062294.gif</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -82,8 +82,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>10</y>
+      <x>20</x>
+      <y>0</y>
       <width>421</width>
       <height>91</height>
      </rect>
@@ -92,7 +92,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../OneDrive/Desktop/ini.gif</pixmap>
+     <pixmap>../../PythonProj_GUI/ini.gif</pixmap>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
@@ -137,6 +137,22 @@
     <property name="styleSheet">
      <string notr="true">
 background-color: rgb(170, 255, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>670</y>
+      <width>451</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../PythonProj_GUI/result.gif</pixmap>
     </property>
    </widget>
   </widget>

@@ -488,11 +488,14 @@ class Main(QMainWindow):
 
     def startTask(self):
 
-        self.ui.movie = QtGui.QMovie("../../../OneDrive/Desktop/Intercept_Echo_v2-3.5MB-2-1542062294.gif")
+        self.ui.movie = QtGui.QMovie("../../PythonProj_GUI/Intercept_Echo_v2-3.5MB-2-1542062294.gif")
         self.ui.label.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie("../../../OneDrive/Desktop/ini.gif")
+        self.ui.movie = QtGui.QMovie("../../PythonProj_GUI/ini.gif")
         self.ui.label_2.setMovie(self.ui.movie)
+        self.ui.movie.start()
+        self.ui.movie = QtGui.QMovie("../../PythonProj_GUI/result.gif")
+        self.ui.label_3.setMovie(self.ui.movie)
         self.ui.movie.start()
 
         timer = QTimer(self)
