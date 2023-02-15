@@ -401,8 +401,7 @@ class MainThread(QThread):
             elif 'open notepad' in self.query:
                 path="C:\\Windows\\notepad.exe"
                 os.startfile(path)
-            elif 'hey' in self.query:
-                speak("hi i am here")
+           
 
     
                 
