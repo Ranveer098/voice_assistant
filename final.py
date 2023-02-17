@@ -383,7 +383,7 @@ class MainThread(QThread):
                     from nasa import NasaNews
                     NasaNews(value)
                 except Exception as e:
-                    speak("sorry sir,Date format was incorrect")
+                    speak("sorry sir,please Date format was incorrect")
 
             
             elif 'mars' in self.query or 'image' in self.query:
